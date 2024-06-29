@@ -1,8 +1,11 @@
 <template>
-    <div>
-        <p>Project List</p>
-        <div class="projects-grid">
-            <div class="project-card" v-for="project in projects" :key="project.id">
+    <div class="mb-[100px]">
+        <div>
+            <p class="text-xl font-bold mb-4">Project List</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
+            <div class="bg-emerald-600 text-white p-5 rounded shadow hover:shadow-lg transform hover:translate-y-1 transition-transform duration-300"
+                v-for="project in projects" :key="project.id">
                 <p>{{ project.name }}</p>
             </div>
         </div>
@@ -24,25 +27,4 @@ if (!error.value) {
 }
 </script>
 
-<style scoped>
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
-    padding: 10px;
-}
-
-.project-card {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-    transform: scale(1.05);
-}
-</style>
+<style scoped></style>
