@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center h-10 ">
+    <div class="flex justify-center ">
         <div>
             <p>I am sara etemadian</p>
         </div>

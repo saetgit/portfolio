@@ -1,7 +1,6 @@
 <template>
     <div>
-        <Slider />
-        <Project />
+    <p>This is Component Project</p>
     </div>
 </template>
 
@@ -9,4 +8,6 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>
