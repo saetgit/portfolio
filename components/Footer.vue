@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-black text-white p-4 fixed bottom-0 left-0 w-full flex justify-between items-center">
+    <footer class="bg-black text-white p-4 fixed bottom-0 left-0 w-full flex justify-between items-center mt-10">
         <div>
             <p>Sara Etemadian @ 2024 copyright</p>
         </div>
