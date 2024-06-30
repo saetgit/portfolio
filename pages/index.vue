@@ -2,6 +2,7 @@
     <div>
         <Slider />
         <Project />
+        <Skill />
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center px-5 items-center text-emerald-600 pt-[80px]">
+    <div class="flex justify-center px-5 items-center text-emerald-600 pt-[80px] mb-8">
         <div class="pr-4">
             <p>I am sara etemadian</p>
             <b>Front-end developer</b>
