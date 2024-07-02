@@ -1,9 +1,10 @@
 <template>
     <div>
         <Slider />
-        <Summary/>
+        <Summary />
         <Project />
         <Skill />
+        <Education />
     </div>
 </template>
 
