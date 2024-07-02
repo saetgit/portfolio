@@ -1,6 +1,7 @@
 <template>
     <div>
         <Slider />
+        <Summary/>
         <Project />
         <Skill />
     </div>
