@@ -7,6 +7,9 @@ export default defineNuxtConfig({
 
   target: 'static', // برای ساختن یک سایت استاتیک
   build: {
-    publicPath: 'git@github.com:saetgit/portfolio.git'
+    publicPath: '/portfolio/' // تغییر مسیر به نام مخزن شما
+  },
+  router: {
+    base: '/portfolio/' // تنظیم مسیر پایه
   }
 });
