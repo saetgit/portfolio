@@ -4,7 +4,7 @@
             <p>I am sara etemadian</p>
             <b>Front-end developer</b>
             <div class="mt-4">
-                <a href="static/doc/Sara_Etemadian_v1.pdf"
+                <a :href="pdfLink" download
                     class="inline-block px-6 py-3 bg-black text-white no-underline rounded transition-transform transform hover:bg-gray-800 hover:scale-105 shadow-md hover:shadow-lg">
                     Download Resume
                 </a>
@@ -18,6 +18,7 @@
 </template>
 
 <script setup>
+const pdfLink = ref('/doc/Sara_Etemadian_v1.pdf'); // مسیر فایل PDF شما
 
 </script>
 
