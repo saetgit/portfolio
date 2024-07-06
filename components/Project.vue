@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-[100px]">
+    <div id="project" class="mb-[100px]">
         <div class="text-center mb-8">
             <p class="text-2xl font-semibold text-gray-800">Project List</p>
         </div>

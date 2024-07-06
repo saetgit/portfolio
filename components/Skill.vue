@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-24">
+    <div id="skill" class="mb-24">
         <div class="text-center mb-8">
             <p class="text-2xl font-semibold text-gray-800">Skills List</p>
         </div>

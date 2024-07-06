@@ -8,9 +8,12 @@
                 </svg>
             </button>
             <ul :class="{ 'hidden': !isOpen, 'flex': isOpen }" class="flex-col md:flex-row md:flex">
-                <li class="pr-2"><a href="#">Home</a></li>
-                <li class="pr-2"><a href="#">Project</a></li>
-                <li class="pr-2"><a href="#">Contact</a></li>
+                <li class="pr-3"><a href="#home">Home</a></li>
+                <li class="pr-3"><a href="#summary">Summary</a></li>
+                <li class="pr-3"><a href="#project">Project</a></li>
+                <li class="pr-3"><a href="#skill">Skill</a></li>
+                <li class="pr-2"><a href="#education">Education</a></li>
+                <li class="pr-3"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
