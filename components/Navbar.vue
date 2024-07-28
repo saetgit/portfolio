@@ -16,7 +16,7 @@
                             SE
                         </p>
                     </div>
-                    <li class="pr-3"><a
+                    <li class="pr-3"><a :href="pdfLink" download
                             class="text-[16px] bg-[#111827] text-white w-[136px] h-[36px] rounded-[12px] px-[16px] py-[6px]">Download
                             CV</a></li>
                     <li class="px-3 border-l-2 border-l-[#F3F4F6]"><img src="../static/icons/light.svg" alt="light" />
@@ -38,6 +38,7 @@
 
 <script setup>
 import { ref } from 'vue';
+const pdfLink = ref('/doc/Sara_Etemadian_v1.pdf'); // مسیر فایل PDF شما
 
 const isOpen = ref(false);
 

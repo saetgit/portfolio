@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Slider />
+        <About />
         <Summary />
         <Project />
         <Skill />
